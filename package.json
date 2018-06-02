@@ -1,0 +1,19 @@
+{
+  "name": "aliax",
+  "version": "0.1.0",
+  "description": "A simple alias manager",
+  "main": "index.js",
+  "repository": "https://github.com/KeeganFerrett/Aliax",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0"
+  },
+  "bin": {
+    "aliax": "index.js"
+  }
+}
