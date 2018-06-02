@@ -3,6 +3,13 @@
 Aliax is a simple command line tool for creating permanent aliases to make your life easier.
 Aliax creates and organises aliases in a structured way by saving each alias into a 'group'.
 
+## Install
+Since this is a command line tool, it is recommended that you install it globally.
+
+```
+npm install -g aliax
+```
+
 ## Setup
 
 In order for your shell to read the aliases which Aliax creates, some setup must be done.
