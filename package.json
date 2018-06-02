@@ -1,6 +1,6 @@
 {
   "name": "aliax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple alias manager",
   "main": "index.js",
   "repository": "https://github.com/KeeganFerrett/Aliax",
@@ -16,5 +16,10 @@
   "bin": {
     "aliax": "index.js"
   },
-  "keywords": ["cli", "aliases", "alias", "comand line"]
+  "keywords": [
+    "cli",
+    "aliases",
+    "alias",
+    "comand line"
+  ]
 }
