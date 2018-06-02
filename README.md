@@ -5,7 +5,7 @@ Aliax creates and organises aliases in a structured way by saving each alias int
 
 ## Setup
 
-Inorder for your shell to read the aliases which Aliax creates, some setup must be done.
+In order for your shell to read the aliases which Aliax creates, some setup must be done.
 
 To do this, simply run `aliax setup`. You will be prompted to give the shell
 which you make use of. This is because different shells make use of different script
@@ -27,7 +27,7 @@ for your shells rc file.
 a new shell session.
 
 The setup command can also be used if you have changed shells as it will not override
-any exisiting alias groups saved in the .aliases folder.
+any existing alias groups saved in the .aliases folder.
 
 ## Creating a new alias
 
@@ -59,7 +59,17 @@ and linked in the `aliases.symlink` file.
 
 ### Alias Name
 
+The alias name which you provide will the new command given to your alias. This
+name must be a single string, make up of characters, letters, and underscores.
+Typing in this name in future shell sessions will execute the command which you
+link to this alias.
+
 ### Command Type
+
+The command type is a way of providing short-cuts to creating common aliases.
+Currently the only short-cut available is the Change Directory command. If you
+want to create an alias for a command which is not in the short-cut list, then
+simply select `Custom` and type in your own command.
 
 #### Change Directory
 
@@ -67,7 +77,7 @@ Choosing this command type will create an `cd` alias to change the current
 working directory to the directory where this alias was made.
 
 For example, if the user was in their `Documents` directory and created the alias
-`docs`, aliax would make an alias for the following commad: `cd /Users/username/Documents`
+`docs`, Aliax would make an alias for the following command: `cd /Users/username/Documents`
 
 #### Custom
 
@@ -81,6 +91,6 @@ shell sessions.
 
 ## Deleting an alias
 
-If you want to delet an alias, all you need to do is go the group file, in the
+If you want to delete an alias, all you need to do is go the group file, in the
 `.aliases` folder, and remove the line where it is defined. Then just start a new
 shell session, and the alias will be gone for good.
